@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Let the browser know we support both themes */
+:root {
+  color-scheme: light dark;
+}
+
+/* Global background + typography */
+body {
+  @apply min-h-screen bg-gradient-to-br from-slate-50 via-slate-100 to-slate-200 
+    dark:from-slate-950 dark:via-slate-950 dark:to-black 
+    text-slate-900 dark:text-slate-100 antialiased;
+}
+
+/* Ensure Vue app fills the viewport */
+#app {
+  @apply min-h-screen;
+}
