@@ -34,7 +34,12 @@ Tech Stack
 - Git & GitHub
 
 ---
+## Getting started
 
+npm install
+npm run dev
+
+Live Link --> https://security-playground-nine.vercel.app/
 Features
 
 ### Password Analysis
