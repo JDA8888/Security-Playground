@@ -120,7 +120,7 @@
               type="text"
               v-model="vigenereKey"
               class="w-full bg-white/95 dark:bg-slate-950/60 border border-slate-300 dark:border-slate-600 rounded-lg px-3 py-2 text-sm text-slate-900 dark:text-slate-50 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:border-emerald-400"
-              placeholder="e.g. MONASH"
+              placeholder="e.g. BCV"
             />
             <p class="text-xs text-slate-500 dark:text-slate-400">
               Letters only, case-insensitive.
